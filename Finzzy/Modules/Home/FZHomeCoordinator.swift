@@ -23,6 +23,7 @@ final class FZHomeCoordinator: FZNavigationCoordinator {
     }
     
     func navigateToHomeDetailsPage(data: Card) {
-        print(data)
+        let homeDetailCoordinator = FZHomeDetailCoordinator(navigationController: navigationController)
+        homeDetailCoordinator.start(data: data)
     }
 }
