@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B1EC07129688AD400692920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1EC07029688AD400692920 /* ViewController.swift */; };
+		6B1EC07129688AD400692920 /* FZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1EC07029688AD400692920 /* FZHomeViewController.swift */; };
 		6B1EC07429688AD400692920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07229688AD400692920 /* Main.storyboard */; };
 		6B1EC07629688AD600692920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07529688AD600692920 /* Assets.xcassets */; };
 		6B1EC07929688AD600692920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07729688AD600692920 /* LaunchScreen.storyboard */; };
 		6B84554C296891C2002DC6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84554A296891C2002DC6F4 /* AppDelegate.swift */; };
 		6B84554D296891C2002DC6F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84554B296891C2002DC6F4 /* SceneDelegate.swift */; };
+		6BD78A2029692AD200DBD420 /* FZNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A1F29692AD200DBD420 /* FZNetworkManager.swift */; };
+		6BD78A2329692B3700DBD420 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6BD78A2229692B3700DBD420 /* Alamofire */; };
+		6BD78A2529692E9500DBD420 /* FZBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A2429692E9500DBD420 /* FZBaseService.swift */; };
+		6BD78A2729692EFF00DBD420 /* FZTransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A2629692EFF00DBD420 /* FZTransactionService.swift */; };
+		6BD78A2B2969300000DBD420 /* FZHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A2A2969300000DBD420 /* FZHomeModel.swift */; };
+		6BD78A2E2969323000DBD420 /* FZEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A2D2969323000DBD420 /* FZEndPoints.swift */; };
+		6BD78A302969384700DBD420 /* FZHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A2F2969384700DBD420 /* FZHomeViewModel.swift */; };
+		6BD78A33296940BC00DBD420 /* FZRootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A32296940BC00DBD420 /* FZRootCoordinator.swift */; };
+		6BD78A35296940E300DBD420 /* FZNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */; };
+		6BD78A372969412E00DBD420 /* FZAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A362969412E00DBD420 /* FZAppCoordinator.swift */; };
+		6BD78A392969419300DBD420 /* FZHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B1EC06929688AD400692920 /* Finzzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finzzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B1EC07029688AD400692920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B1EC07029688AD400692920 /* FZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeViewController.swift; sourceTree = "<group>"; };
 		6B1EC07329688AD400692920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B1EC07529688AD600692920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1EC07829688AD600692920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B84554A296891C2002DC6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B84554B296891C2002DC6F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6B84554E296891D3002DC6F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD78A1F29692AD200DBD420 /* FZNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNetworkManager.swift; sourceTree = "<group>"; };
+		6BD78A2429692E9500DBD420 /* FZBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZBaseService.swift; sourceTree = "<group>"; };
+		6BD78A2629692EFF00DBD420 /* FZTransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZTransactionService.swift; sourceTree = "<group>"; };
+		6BD78A2A2969300000DBD420 /* FZHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeModel.swift; sourceTree = "<group>"; };
+		6BD78A2D2969323000DBD420 /* FZEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZEndPoints.swift; sourceTree = "<group>"; };
+		6BD78A2F2969384700DBD420 /* FZHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeViewModel.swift; sourceTree = "<group>"; };
+		6BD78A32296940BC00DBD420 /* FZRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZRootCoordinator.swift; sourceTree = "<group>"; };
+		6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNavigationCoordinator.swift; sourceTree = "<group>"; };
+		6BD78A362969412E00DBD420 /* FZAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZAppCoordinator.swift; sourceTree = "<group>"; };
+		6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD78A2329692B3700DBD420 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				6B84552629688F43002DC6F4 /* Main */,
+				6BD78A31296940AE00DBD420 /* Coordinators */,
 				6B84552729688F54002DC6F4 /* Modules */,
+				6BD78A1D29692AB200DBD420 /* Manager */,
+				6BD78A1E29692AB900DBD420 /* Services */,
+				6BD78A2C296931ED00DBD420 /* Utilities */,
 				6B84552929688FC0002DC6F4 /* Resources */,
 			);
 			path = Finzzy;
@@ -68,6 +94,7 @@
 			children = (
 				6B84554A296891C2002DC6F4 /* AppDelegate.swift */,
 				6B84554B296891C2002DC6F4 /* SceneDelegate.swift */,
+				6BD78A362969412E00DBD420 /* FZAppCoordinator.swift */,
 				6B84554E296891D3002DC6F4 /* Info.plist */,
 			);
 			path = Main;
@@ -76,8 +103,7 @@
 		6B84552729688F54002DC6F4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				6B1EC07229688AD400692920 /* Main.storyboard */,
-				6B1EC07029688AD400692920 /* ViewController.swift */,
+				6BD78A2829692FDC00DBD420 /* Home */,
 				6B84552829688F9C002DC6F4 /* LaunchScreen */,
 			);
 			path = Modules;
@@ -99,6 +125,52 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		6BD78A1D29692AB200DBD420 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A1F29692AD200DBD420 /* FZNetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6BD78A1E29692AB900DBD420 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A2429692E9500DBD420 /* FZBaseService.swift */,
+				6BD78A2629692EFF00DBD420 /* FZTransactionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6BD78A2829692FDC00DBD420 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A2A2969300000DBD420 /* FZHomeModel.swift */,
+				6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */,
+				6BD78A2F2969384700DBD420 /* FZHomeViewModel.swift */,
+				6B1EC07029688AD400692920 /* FZHomeViewController.swift */,
+				6B1EC07229688AD400692920 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6BD78A2C296931ED00DBD420 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A2D2969323000DBD420 /* FZEndPoints.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6BD78A31296940AE00DBD420 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A32296940BC00DBD420 /* FZRootCoordinator.swift */,
+				6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,13 +181,15 @@
 				6B1EC06529688AD400692920 /* Sources */,
 				6B1EC06629688AD400692920 /* Frameworks */,
 				6B1EC06729688AD400692920 /* Resources */,
-				6B84552529688E42002DC6F4 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Finzzy;
+			packageProductDependencies = (
+				6BD78A2229692B3700DBD420 /* Alamofire */,
+			);
 			productName = Finzzy;
 			productReference = 6B1EC06929688AD400692920 /* Finzzy.app */;
 			productType = "com.apple.product-type.application";
@@ -144,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 6B1EC06029688AD400692920;
+			packageReferences = (
+				6BD78A2129692B3700DBD420 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 6B1EC06A29688AD400692920 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,35 +243,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6B84552529688E42002DC6F4 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint lint --strict\nelse\n  echo \"warning: SwiftLint not installed run `brew install swiftlint`\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		6B1EC06529688AD400692920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD78A2029692AD200DBD420 /* FZNetworkManager.swift in Sources */,
 				6B84554C296891C2002DC6F4 /* AppDelegate.swift in Sources */,
-				6B1EC07129688AD400692920 /* ViewController.swift in Sources */,
+				6B1EC07129688AD400692920 /* FZHomeViewController.swift in Sources */,
+				6BD78A35296940E300DBD420 /* FZNavigationCoordinator.swift in Sources */,
+				6BD78A2529692E9500DBD420 /* FZBaseService.swift in Sources */,
+				6BD78A2B2969300000DBD420 /* FZHomeModel.swift in Sources */,
+				6BD78A372969412E00DBD420 /* FZAppCoordinator.swift in Sources */,
+				6BD78A392969419300DBD420 /* FZHomeCoordinator.swift in Sources */,
+				6BD78A2729692EFF00DBD420 /* FZTransactionService.swift in Sources */,
+				6BD78A2E2969323000DBD420 /* FZEndPoints.swift in Sources */,
+				6BD78A302969384700DBD420 /* FZHomeViewModel.swift in Sources */,
+				6BD78A33296940BC00DBD420 /* FZRootCoordinator.swift in Sources */,
 				6B84554D296891C2002DC6F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +415,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,7 +447,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BD78A2129692B3700DBD420 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BD78A2229692B3700DBD420 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BD78A2129692B3700DBD420 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B1EC06129688AD400692920 /* Project object */;
 }
