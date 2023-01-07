@@ -18,7 +18,11 @@ final class FZHomeCoordinator: FZNavigationCoordinator {
         let networkManager = FZNetworkManager.shared
         let transactionService = FZTransactionService(networkManager: networkManager)
         let viewModel = FZHomeViewModel(transactionService: transactionService)
-        let viewController = FZHomeViewController(viewModel: viewModel)
+        let viewController = FZHomeViewController(viewModel: viewModel, coordinator: self)
         navigationController.viewControllers = [viewController]
+    }
+    
+    func navigateToHomeDetailsPage(data: Card) {
+        print(data)
     }
 }

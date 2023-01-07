@@ -12,7 +12,8 @@ enum FZEndPoints: String {
     
     private var url: String {
         switch self {
-        case .transaction: return "https://api.jsonbin.io/v3/b/63b7e92b15ab31599e2ea89f"
+        case .transaction:
+            return "https://api.jsonbin.io/v3/b/63b7e92b15ab31599e2ea89f"
         }
     }
     

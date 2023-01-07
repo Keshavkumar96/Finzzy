@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6B1EC07129688AD400692920 /* FZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1EC07029688AD400692920 /* FZHomeViewController.swift */; };
-		6B1EC07429688AD400692920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07229688AD400692920 /* Main.storyboard */; };
 		6B1EC07629688AD600692920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07529688AD600692920 /* Assets.xcassets */; };
 		6B1EC07929688AD600692920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1EC07729688AD600692920 /* LaunchScreen.storyboard */; };
 		6B84554C296891C2002DC6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84554A296891C2002DC6F4 /* AppDelegate.swift */; };
@@ -24,12 +23,21 @@
 		6BD78A35296940E300DBD420 /* FZNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */; };
 		6BD78A372969412E00DBD420 /* FZAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A362969412E00DBD420 /* FZAppCoordinator.swift */; };
 		6BD78A392969419300DBD420 /* FZHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */; };
+		6BD78A3D29696F9700DBD420 /* FZTransactionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A3C29696F9700DBD420 /* FZTransactionCollectionView.swift */; };
+		6BD78A3F29696FD600DBD420 /* FZSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A3E29696FD600DBD420 /* FZSpacing.swift */; };
+		6BD78A412969709900DBD420 /* FZTransactionCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A402969709900DBD420 /* FZTransactionCardCollectionViewCell.swift */; };
+		6BD78A44296970FC00DBD420 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A43296970FC00DBD420 /* UITableView+Extension.swift */; };
+		6BD78A462969713D00DBD420 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A452969713D00DBD420 /* UICollectionView+Extension.swift */; };
+		6BD78A492969742B00DBD420 /* FZImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A482969742B00DBD420 /* FZImageLoader.swift */; };
+		6BD78A4B2969747E00DBD420 /* FZHomeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A4A2969747E00DBD420 /* FZHomeConstants.swift */; };
+		6BD78A4D2969802300DBD420 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A4C2969802300DBD420 /* UIColor+Extension.swift */; };
+		6BD78A4F29698C9800DBD420 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A4E29698C9800DBD420 /* String+Extension.swift */; };
+		6BD78A512969910500DBD420 /* FZCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD78A502969910500DBD420 /* FZCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B1EC06929688AD400692920 /* Finzzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finzzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1EC07029688AD400692920 /* FZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeViewController.swift; sourceTree = "<group>"; };
-		6B1EC07329688AD400692920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B1EC07529688AD600692920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1EC07829688AD600692920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B84554A296891C2002DC6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNavigationCoordinator.swift; sourceTree = "<group>"; };
 		6BD78A362969412E00DBD420 /* FZAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZAppCoordinator.swift; sourceTree = "<group>"; };
 		6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeCoordinator.swift; sourceTree = "<group>"; };
+		6BD78A3C29696F9700DBD420 /* FZTransactionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZTransactionCollectionView.swift; sourceTree = "<group>"; };
+		6BD78A3E29696FD600DBD420 /* FZSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZSpacing.swift; sourceTree = "<group>"; };
+		6BD78A402969709900DBD420 /* FZTransactionCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZTransactionCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		6BD78A43296970FC00DBD420 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		6BD78A452969713D00DBD420 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		6BD78A482969742B00DBD420 /* FZImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZImageLoader.swift; sourceTree = "<group>"; };
+		6BD78A4A2969747E00DBD420 /* FZHomeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeConstants.swift; sourceTree = "<group>"; };
+		6BD78A4C2969802300DBD420 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6BD78A4E29698C9800DBD420 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6BD78A502969910500DBD420 /* FZCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +102,8 @@
 				6BD78A1D29692AB200DBD420 /* Manager */,
 				6BD78A1E29692AB900DBD420 /* Services */,
 				6BD78A2C296931ED00DBD420 /* Utilities */,
+				6BD78A42296970E500DBD420 /* Extensions */,
+				6BD78A472969741E00DBD420 /* Helpers */,
 				6B84552929688FC0002DC6F4 /* Resources */,
 			);
 			path = Finzzy;
@@ -145,11 +165,13 @@
 		6BD78A2829692FDC00DBD420 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6BD78A532969945400DBD420 /* Cell */,
+				6BD78A522969944800DBD420 /* CollectionView */,
 				6BD78A2A2969300000DBD420 /* FZHomeModel.swift */,
-				6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */,
 				6BD78A2F2969384700DBD420 /* FZHomeViewModel.swift */,
 				6B1EC07029688AD400692920 /* FZHomeViewController.swift */,
-				6B1EC07229688AD400692920 /* Main.storyboard */,
+				6BD78A382969419300DBD420 /* FZHomeCoordinator.swift */,
+				6BD78A4A2969747E00DBD420 /* FZHomeConstants.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -158,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				6BD78A2D2969323000DBD420 /* FZEndPoints.swift */,
+				6BD78A3E29696FD600DBD420 /* FZSpacing.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -169,6 +192,42 @@
 				6BD78A34296940E300DBD420 /* FZNavigationCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6BD78A42296970E500DBD420 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A43296970FC00DBD420 /* UITableView+Extension.swift */,
+				6BD78A452969713D00DBD420 /* UICollectionView+Extension.swift */,
+				6BD78A4C2969802300DBD420 /* UIColor+Extension.swift */,
+				6BD78A4E29698C9800DBD420 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6BD78A472969741E00DBD420 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A482969742B00DBD420 /* FZImageLoader.swift */,
+				6BD78A502969910500DBD420 /* FZCurrency.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6BD78A522969944800DBD420 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A3C29696F9700DBD420 /* FZTransactionCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		6BD78A532969945400DBD420 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6BD78A402969709900DBD420 /* FZTransactionCardCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +296,6 @@
 			files = (
 				6B1EC07929688AD600692920 /* LaunchScreen.storyboard in Resources */,
 				6B1EC07629688AD600692920 /* Assets.xcassets in Resources */,
-				6B1EC07429688AD400692920 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,33 +306,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD78A4D2969802300DBD420 /* UIColor+Extension.swift in Sources */,
+				6BD78A462969713D00DBD420 /* UICollectionView+Extension.swift in Sources */,
 				6BD78A2029692AD200DBD420 /* FZNetworkManager.swift in Sources */,
+				6BD78A3D29696F9700DBD420 /* FZTransactionCollectionView.swift in Sources */,
+				6BD78A3F29696FD600DBD420 /* FZSpacing.swift in Sources */,
 				6B84554C296891C2002DC6F4 /* AppDelegate.swift in Sources */,
 				6B1EC07129688AD400692920 /* FZHomeViewController.swift in Sources */,
 				6BD78A35296940E300DBD420 /* FZNavigationCoordinator.swift in Sources */,
+				6BD78A44296970FC00DBD420 /* UITableView+Extension.swift in Sources */,
 				6BD78A2529692E9500DBD420 /* FZBaseService.swift in Sources */,
 				6BD78A2B2969300000DBD420 /* FZHomeModel.swift in Sources */,
 				6BD78A372969412E00DBD420 /* FZAppCoordinator.swift in Sources */,
+				6BD78A4F29698C9800DBD420 /* String+Extension.swift in Sources */,
 				6BD78A392969419300DBD420 /* FZHomeCoordinator.swift in Sources */,
 				6BD78A2729692EFF00DBD420 /* FZTransactionService.swift in Sources */,
+				6BD78A412969709900DBD420 /* FZTransactionCardCollectionViewCell.swift in Sources */,
+				6BD78A4B2969747E00DBD420 /* FZHomeConstants.swift in Sources */,
 				6BD78A2E2969323000DBD420 /* FZEndPoints.swift in Sources */,
 				6BD78A302969384700DBD420 /* FZHomeViewModel.swift in Sources */,
 				6BD78A33296940BC00DBD420 /* FZRootCoordinator.swift in Sources */,
+				6BD78A512969910500DBD420 /* FZCurrency.swift in Sources */,
 				6B84554D296891C2002DC6F4 /* SceneDelegate.swift in Sources */,
+				6BD78A492969742B00DBD420 /* FZImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B1EC07229688AD400692920 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B1EC07329688AD400692920 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B1EC07729688AD600692920 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +476,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +509,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
